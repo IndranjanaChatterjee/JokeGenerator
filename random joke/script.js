@@ -1,13 +1,13 @@
 
 btn.addEventListener('click',(e)=>
 {
-    let p=fetch("https://api.chucknorris.io/jokes/random");
+    let p=fetch("GIVE UR API");
     p.then((value)=>
     {
         return value.json();
     }).then((val)=>
     {
-        document.getElementById("text").innerHTML=val.value;
+        document.getElementById("text").innerHTML=val.[index];
     })
 
 })
